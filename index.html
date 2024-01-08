@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>git and github</title>
+    </head>
+    <body>
+        <h1>Git and Github</h1>
+        <ol>
+            <h2>configuration to github using git bash</h2>
+            <li>git --version</li>
+            <ul>
+                <li>
+                    It verifies the git installation with version number
+                </li>
+            </ul>
+            <li>git config --global user.name "username"</li>
+            <ul>
+                <li>this command is used for configuration or connection with github,
+                    have to enter username as for the github account
+                </li>
+            </ul>
+            <li>git config --global user.email "email address"</li>
+            <ul>
+                <li>this is also configuration for github.so has to enter
+                    email address as same of the github account
+                </li>
+            </ul>
+            <li>git config --list</li>
+            <ul>
+                <li>
+                    this command shows the what creditials you uploaded as username and email_addreses
+                </li>
+            </ul>
+            <h2>Clone and Status</h2>
+            <li>git clone paste_address_of_the_https</li>
+            <ul>
+                <li>It cloning/coping a repository on to our locl machine like laptop or PC.</li>
+                    <li>You can get/copy the https address by clicking on the code button in current repository on github</li>
+            </ul>
+            <li>git status</li>
+            <ul>
+                <li>It displays the state of the code as following types :</li>
+                <li>untracked    -  new files that git doesn't yet track</li>
+                <li>modified    -   changed</li>
+                <li>staged  -   file is ready to be commited</li>
+                <li>unmodified  -   unchanged</li>
+            </ul>
+            <h2>Add and Commit commad</h2>
+            <li>git add <-file name-></li>
+                <ul>
+                    <li>adds new or changed file in your working directory to the Git staging area.</li>
+                    <li>If we place <-.->point in place of file_name it adds all the files.</li>
+                    <li>To add all files at a time we use point symbol like <i>git add .</i></li>
+                </ul>
+            <li>git commit -m "some message"</li>
+            <ul><li>It is the record of change</li></ul>
+            <h2>Push Command</h2>
+                <li>git push origin main</li>
+                <ul><li>push/upload the local repository content to remote/github repository</li></ul>
+        </ol>
+    </body>
+</html>
